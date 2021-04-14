@@ -1,0 +1,43 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, rgba(62,113,129,1) 0%, rgba(74,99,126,1) 35%, rgba(50,128,152,1) 100%);
+
+  
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .name {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 10px 50px 10px 0px;
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+     font-size:larger;
+     
+     &:hover {
+       color: black;
+     }
+    }
+
+    .option-item {
+      padding: 10px 15px;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
