@@ -1,9 +1,8 @@
 .header {
-  height: 70px;
+  height: 8vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
   background: linear-gradient(90deg, rgba(62,113,129,1) 0%, rgba(74,99,126,1) 35%, rgba(50,128,152,1) 100%);
 
   
@@ -22,10 +21,17 @@
      text-decoration: none;
      color: white;
      cursor: pointer;
-     font-size:larger;
+     font-size: large;
+     background: linear-gradient(to right, black, black 50%, white 50%);
+     transition: background-position 5s ease;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-size: 200% 100%;
+     background-position: 100%;
      
      &:hover {
-       color: black;
+       background-position: 0 100%;
      }
     }
 

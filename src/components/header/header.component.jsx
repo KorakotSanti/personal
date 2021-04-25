@@ -6,14 +6,17 @@ const Header = () => (
   <div className="header">
     <div className="options">
       <Link className="name" to="/">
-        Korakot Santiudommongkol
+        KORAKOT SANTIUDOMMONGKOL
       </Link>
-      <Link className="option-item" to="/">
+      <Link className="option-item" to="/aboutme">
         ABOUT ME
       </Link>
       <Link className="option-item" to="/skills">
-        SKILLS
+        SKILLS & PROJECTS
       </Link>
+      <a className="option-item" href="/document/Korakot_Santiudommongkol.pdf" target="_blank">
+        RESUME
+      </a>
     </div>
   </div>
 );
